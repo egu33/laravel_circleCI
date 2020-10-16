@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand navbar-dark blue-gradient">
+<nav class="navbar navbar-expand navbar-dark bg-dark">
 
-  <a class="navbar-brand" href="/"><i class="far fa-sticky-note mr-1"></i>memo</a>
+  <a class="navbar-brand" href="/"><i class="fas fa-address-book mr-1"></i>CI</a>
 
   <ul class="navbar-nav ml-auto">
 
