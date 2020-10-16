@@ -36,4 +36,9 @@ class ArticleControllerTest extends TestCase
         $response->assertStatus(200)
             ->assertViewIs('articles.create');
     }
+
+    public function testLogin(){
+        $response = $this -> get(route("login"));
+        $response -> assertOK();
+    }
 }
