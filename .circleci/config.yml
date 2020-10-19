@@ -58,6 +58,9 @@ jobs:
           name: deploy
           command: |
             ssh -o StrictHostKeyChecking=no -t webapp@${HOST_NAME} "cd laravel-ci && \
+              git config --global user.email "eguthi10@gmail.com"
+              git config --global user.name "egu33"
+              git config --list
               git pull origin master && \
               composer install -n --no-dev --prefer-dist && \
               npm ci && \
