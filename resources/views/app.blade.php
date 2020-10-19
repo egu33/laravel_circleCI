@@ -14,7 +14,15 @@
   <!-- Material Design Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.11/css/mdb.min.css" rel="stylesheet">
 </head>
-
+<style>
+  body {
+    background-image: url("/images/top_ground_image.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+     }
+</style>
 <body>
   <div id="app">
     @yield('content')

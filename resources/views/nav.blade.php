@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand navbar-dark bg-dark">
 
-  <a class="navbar-brand" href="/"><i class="far fa-flag mr-1"></i>CsI</a>
+  <a class="navbar-brand" href="/"><i class="far fa-flag mr-1"></i>サッカー日本代表応援サイト</a>
 
   <ul class="navbar-nav ml-auto">
 
